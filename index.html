@@ -1,0 +1,138 @@
+<!-- a primeira indica que o arquivo será html -->
+<!DOCTYPE html>
+<!-- o lang informa a linguagem do conteúdo da página en= english, se quiser portugues ficará pt-BR -->
+<html lang="en">
+
+<!-- head significa a cabeça do código, a parte superior do site -->
+<head>
+    <!-- UTF-8 indica que o indioma do site será portugues -->
+    <meta charset="UTF-8">
+    <!-- viewport habilita o código para "qualquer" dispositivo -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- essa tag é exclusiva para internet explorer, faz com que a versão seja renderizada para a versão mais atual do IE -->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- indica que o estilo será com base no arquivo style.css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- o title indica o nome que ficará escrito na guia do navegador -->
+    <title>Portifólio</title>
+</head>
+<!-- o body indica o corpo do site -->
+
+<body>
+        <section id="body">
+    <!-- o header indica o conteudo o cabeçalho do site -->
+    <header>
+        <!-- o nav agrupo links internos do site -->
+        <nav > 
+            <!-- ul indica que se trata de uma lista não ordenada, sem ordem de números por exemplo, caso queira utilização ordenação, trocar ul por ol -->
+            <ul>
+                <!-- o li indica cada item da lista, faz com que fiquem separados -->
+                <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" href="#Home">Home </a></li>
+                <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" href="#projetos">Portfólio </a></li>
+                <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" href="#sobre"> Sobre </a></li>
+                <li class="nav-item">
+                <a class="nav-link js scroll-trigger" href="#contato"> Contato</a></li>
+            </ul>
+        </nav>
+<!-- utiliza-se div class para criar classes, fica melhor de configurar o css depois, torna o código mais personalizavel -->
+        <section id="home">
+        <div class="banner">
+            <h1 class="banner_title"> Olá, eu sou a <b class="banner_title-color"> Barbara </b>
+            </h1>
+            <h4> Front-End Developer</h4>
+        
+            
+            <div class="seta">
+                <img class="seta_img" src="assets/seta.svg" alt="seta para baixo">
+            </div>
+            </section>
+        </div>
+        </section>
+</section>
+        
+    </header>
+    <section id="projetos">
+    <div class="projetos">
+        <!-- a div conainer agrupa tudo que segue abaixo, qualquer alteraão feita em uma classe altera as demais -->
+        
+            <h1 class="projetos_title"> Meus projetos </h1>
+
+            <div class="projetos_site">
+                <div class="site">
+                    <img class="site_img1" src="assets/site1.png" alt="Mostra o primeiro projeto, criação do portfólio próprio">
+                    <h3 class="site_title1"> O portfólio apresenta um pouco sobre quem eu sou e minhas principais redes sociais.
+                    </h3>
+                    <div class="btn">
+                        <a href="https://barbarabarbieri.netlify.com/" class="btn_link"> Acesse aqui</a>
+                    </div>
+
+                </div>
+
+                <div class="site">
+                    <img class="site_img2" src="assets/site2.png" alt="Mostra o segundo projeto, modelo de site com responsivo">
+                    <h3 class="site_title2"> Neste projeto a intenção foi tornar um site modelo da Reprogama acessível e responsivo. 
+                    </h3>
+
+                    <div class="btn">
+                        <a href="https://exercicioaula01-barbarab.netlify.com/" class="btn_link"> Acesse aqui</a>
+                    </div>
+                </div>
+            </div>
+        
+        <div class="topo" id="body">
+            <a href="#body"> Topo </a>
+        </div>
+        </section>
+    </div>
+
+        <div class="sobreMim">
+            <section id="sobre">
+            <h1 class="titles"> Sobre mim </h1>
+            
+        <div class="container">
+                
+            
+            <img src="assets/eu.jpeg" alt="foto da Barbara" class="sobreMim_img">
+            <h3 class="sobreMim_description"> Eu sou Barbara De David Barbieri, estudante de Engenharia de Produção, comprometida e curiosa. Apaixonada por cachorros, séries e livros. Bastante focada e persistente, gosto de trabalhar com desafios. </h3>
+
+                                   
+        </div>
+        <div class="btn">
+                <a href="https://www.linkedin.com/in/barbara-de-david-barbieri-5bbab590"  class="btn_link"> Acesse aqui </a>
+                
+        </div>
+
+        <div class="topo" id="body">
+                <a href="#body"> Topo </a>
+        </div>
+            
+    </div>
+    <section id="contato"> 
+    <div class="contato">
+            <h1 class="contato_title titles">Entre em contato</h1>
+        <div class="container">
+            
+            <div class="contato_icons">
+                <a href="https://github.com/BarbaraBarbieri"  class="contato_img"> <img src="assets/github.svg" alt="ícone do GitHub"  class="contato_img-icon"></a>
+                <a href="https://www.facebook.com/barbara.barbieri.58"  class="contato_img"> <img src="assets/facebook.svg" alt="ícone do Facebook" class="contato_img-icon"></a>
+                <a href="https://www.linkedin.com/in/barbara-de-david-barbieri-5bbab590"  class="contato_img"> <img src="assets/linkedin.svg" alt="Ícone do Linkedin" class="contato_img-icon"></a>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <div class="topo" id="body">
+            <a href="#body"> Topo </a>
+    </div>
+
+    <footer>
+        <h5>Design by: Caroline Silva</h5>
+        <h5>Código by: Barbara Barbieri</h5>
+    </footer>
+
+</body>
+
+</html>

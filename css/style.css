@@ -1,0 +1,412 @@
+/* modelo desktop 1024px */
+
+*{
+    /* siginifica que dará margem automática na direita e na esquerda, em display block centralizada horizontalmente */
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    }    
+    
+
+ul, li {
+    display: flex;
+    padding: 1%;
+    
+    }
+nav{
+    background-color: #af76aa;
+    text-transform: uppercase;
+    font-size: x-large;
+    color: rgb(7, 6, 6);
+    font-weight: bold;
+    display: block;
+    
+    }
+.nav-link{
+    text-decoration: none;
+}
+
+ /* colocar o header antes do sobre mim faz com que o fundo preto se aplique para ambos locais */
+header, .sobreMim{
+    background-color: black;
+}
+
+/* color indica a cor do texto escrito no body, tudo que não for alterado separadamente se manterá com a cor definida aqui */
+body{
+    color: rgb(192, 127, 172);
+    padding: 10%;
+    margin: -10%;
+    
+}
+
+
+.banner{
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 200px;
+    font-size: 1.5rem;
+}
+.banner_title{
+    color: white;
+}
+.banner_title-color{
+    color: #5BCBB2;
+}
+.seta{
+    padding: 10%;
+}
+.seta_img{
+    width: 2%;
+}
+.projetos_title,  .titles{
+    color: #5BCBB2;
+    text-align: center;
+    padding: 50px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-top: 5%;
+}
+.projetos_site{
+    display: flex;
+}
+.projetos{
+    height: 90vh;
+    background-color: black;
+    
+}
+.site_img1{
+    width:70%;
+    display: flex;
+    margin: 0 auto;
+}
+
+.site_img2{
+    width:70%;
+    display: flex;
+    margin: 0 auto;
+}
+.site_title1{
+    color: #B3B2B2;
+    width: 75%;
+    margin-top: 20px;
+    text-align: center;
+    padding-top: 5%;
+    }
+
+.site_title2{
+    color: #B3B2B2;
+    width: 75%;
+    margin-top: 20px;
+    text-align: center;
+    padding-top: 5%;
+}
+
+.btn{
+    padding: 20px;
+    text-align: center;
+    padding-top: 7%;
+}
+.btn_link{
+    color: #48CFAD;
+    border: 2px solid #48CFAD;
+    padding: 7px;
+    margin-top: 18px;
+    font-size: 0.87rem;
+    margin-bottom: 21px;
+}
+.sobreMim{
+    background-color: black;
+    text-align: center;
+    padding: 20%;
+    }
+.container{
+    width: 100%;
+    display: flex;
+    padding-top: 3%;
+    
+}
+.sobreMim_description{
+    padding: 5%;
+    width: 170%;
+}
+
+
+.sobreMim_img{
+    background-color: #ddd;
+    border-radius: 100%;
+    height: 157px;
+    
+}
+
+.contato{
+    height: 50vh;
+    padding: 2%;
+    
+}
+.contato_title{
+    padding: 1%;
+}
+.contato_icons{
+    display: flex;
+    height: 10vh;
+    justify-content: space-around;
+    
+}
+.contato_img{
+    width: 20%;
+        
+}
+.contato_img-icon{
+    width: 100%;
+    
+}
+.topo{
+    text-align: right;
+    margin-left: 35%;
+    text-decoration: none;
+    padding-top: -15%;
+}
+
+footer{
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.2rem;
+    padding: 35px;
+    padding-top: 2%;
+
+}
+}
+/* modelo para tablet 768px */
+@media(min-width:768px) and (max-width:768px){
+
+.banner{
+    font-size: xx-large;
+}
+.seta{
+    padding: 20%;
+}
+.seta_img{
+    width:15%;
+}
+.projetos{
+    padding: 2%;
+    font-size: large;
+}
+
+.site_img1{
+    width:90%;
+    display: flex;
+}
+.site_img2{
+    width:90%;
+    display: flex;
+}
+.site_title{
+    width: 97%;
+    margin-top: 20px;
+    margin: initial;
+    text-align: justify;
+    padding-top: 5%;
+    margin-right: 50%;
+}
+
+.btn{
+    padding: 10%;
+}
+.btn2{
+    padding: 9%;
+    text-align: center;
+}
+.sobreMim{
+    padding-top: 30%;
+    width: 60%;
+    font-size: x-large;
+    padding-bottom: 5%;
+}
+
+.container{
+    display: flex;
+    width: 100%;
+    margin-right: 50%;
+    font-size: large;
+    padding: 3%;
+    
+}
+body{
+    margin-right: -43%;
+}
+
+.contato{
+    padding-top: 5%;
+    width: 50%;
+    font-size: x-large;
+}
+.contato_title{
+    padding: 9%;
+}
+
+.topo{
+    text-align: right;
+    margin-left: 35%;
+    text-decoration: none;
+    padding-top: -15%;
+    font-size: large;
+    padding-block-end: inherit;
+}
+}
+/* modelo para mobile 320px */
+@media(min-width:320px) and (max-width:320px){
+
+    nav{
+        background-color: #af76aa;
+        text-transform: uppercase;
+        font-size: small;
+        color: rgb(7, 6, 6);
+        font-weight: bold;
+        display: block;
+        
+        }
+    .nav-link{
+        text-decoration: none;
+    }
+    
+     /* colocar o header antes do sobre mim faz com que o fundo preto se aplique para ambos locais */
+    header, .sobreMim{
+        background-color: black;
+    }
+    
+    /* color indica a cor do texto escrito no body, tudo que não for alterado separadamente se manterá com a cor definida aqui */
+    body{
+        color: rgb(192, 127, 172);
+        padding: 10%;
+        margin-right: -50%;
+        
+    }
+    .seta_img{
+        width: 15%;
+    }
+    .projetos_title,  .titles{
+        color: #5BCBB2;
+        text-align: center;
+        padding: 50px;
+        font-weight: bold;
+        text-transform: uppercase;
+        padding-top: 10%;
+        font-size: small;
+    }
+    .projetos_site{
+        display: flex;
+
+    }
+    .projetos{
+        height: 90vh;
+        background-color: black;
+        padding-block-end: -50%;
+        
+    }
+    .site_img1{
+        width:80%;
+        display: flex;
+        margin: 0 auto;
+    }
+    
+    .site_img2{
+        width:80%;
+        display: flex;
+        margin: 0 auto;
+    }
+    .site_title1{
+        color: #B3B2B2;
+        width: 75%;
+        margin-top: 20px;
+        text-align: center;
+        padding-top: 5%;
+        font-size: small;
+        padding-block-end: 10%;
+        }
+    
+    .site_title2{
+        color: #B3B2B2;
+        width: 75%;
+        margin-top: 20px;
+        text-align: center;
+        padding-top: 5%;
+        font-size: small;
+        padding-block-end: 10%;
+
+    }
+    .topo{
+        text-align: center;
+        margin-right: 15%;
+        
+    }
+    .btn{
+        padding: 20px;
+        text-align: center;
+        padding-top: 7%;
+    }
+    
+    .sobreMim{
+        background-color: black;
+        padding: 20%;
+        }
+    .container{
+        margin: 10%;
+        width: 50%;
+        display: block;
+        padding-top: 1%;
+        text-align: center;
+    }
+    .sobreMim_description {
+        text-align: center;
+        margin-right: -30%;   
+               
+    }
+    .sobreMim_img{
+        text-align: center;
+        margin: 10%; 
+    }
+    .contato{
+        height: 60vh;
+        padding: 2%;
+        
+    }
+    .contato_title{
+        padding: 13%;
+    }
+    .contato_icons{
+        display: flex;
+        height: 50vh;
+        text-align: center;
+        
+    }
+    .contato_img{
+        width: 38%;
+        text-align: center;
+    }
+    .contato_img-icon{
+        width: 100%;
+        text-align: center;
+        
+    }
+    
+    .topo{
+    
+        margin-left: 15%;
+        text-decoration: none;
+        padding-top: -15%;
+    }
+    
+    footer{
+        background-color: black;
+        display: flex;
+        justify-content: space-around;
+        font-size: 1.2rem;
+        padding: 35px;
+        padding-top: 2%;
+    
+    }
+    .sobreMim_description{
+        padding-left: 0;
+    }
+    }
